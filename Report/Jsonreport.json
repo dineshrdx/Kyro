@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login In The Application And Navigate to Dashboard",
+        "description": "",
+        "id": "create-the-new-task-in-particular-project;login-in-the-application-and-navigate-to-dashboard",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4788551299,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_The_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124470199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Click The Login Button And It Will Navigate To Login Page",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Login_Button_And_It_Will_Navigate_To_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3328140800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter The username In Username Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_username_In_Username_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146203100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter The password In Password Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_password_In_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3362650400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Click The Login Button And It  Will Navigate To Home page",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Login_Button_And_It_Will_Navigate_To_Home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84209600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click The Dashboard Button And It Will Navigate To Dashboard Page",
+            "match": {
+              "location": "StepDefinition.click_The_Dashboard_Button_And_It_Will_Navigate_To_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "create The New task In The Exciting Project",
+        "description": "",
+        "id": "create-the-new-task-in-particular-project;create-the-new-task-in-the-exciting-project",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6177112001,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click The Working Project And It Will Navigate To Project Detail Page",
+            "match": {
+              "location": "StepDefinition.click_The_Working_Project_And_It_Will_Navigate_To_Project_Detail_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6146535501,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click The New Task Button In The Project Page",
+            "match": {
+              "location": "StepDefinition.click_The_New_Task_Button_In_The_Project_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513104900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter The Summary In The Summary Field",
+            "match": {
+              "location": "StepDefinition.enter_The_Summary_In_The_Summary_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258683600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter The Test-type In The Test-type Field",
+            "match": {
+              "location": "StepDefinition.enter_The_Test_type_In_The_Test_type_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318516001,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enter The Description In The Description Field",
+            "match": {
+              "location": "StepDefinition.enter_The_Description_In_The_Description_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237507700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter The Priority In The priority Field",
+            "match": {
+              "location": "StepDefinition.enter_The_Priority_In_The_priority_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275675500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "enter The Location In The Location Field",
+            "match": {
+              "location": "StepDefinition.enter_The_Location_In_The_Location_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167521199,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "enter The Start-Date In The State-Date Field",
+            "match": {
+              "location": "StepDefinition.enter_The_Start_Date_In_The_State_Date_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160870500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enter The Due-Date In The Due-Date Field",
+            "match": {
+              "location": "StepDefinition.enter_The_Due_Date_In_The_Due_Date_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126606000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click The Submit Button And It Will Create New task",
+            "match": {
+              "location": "StepDefinition.click_The_Submit_Button_And_It_Will_Create_New_task()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "check Whether The New Task Created Or Not",
+        "description": "",
+        "id": "create-the-new-task-in-particular-project;check-whether-the-new-task-created-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115769700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "by Using Isdisplayed To Check The Task",
+            "match": {
+              "location": "StepDefinition.by_Using_Isdisplayed_To_Check_The_Task()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@regressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Create The New Task In Particular Project",
+    "description": "",
+    "id": "create-the-new-task-in-particular-project",
+    "keyword": "Feature",
+    "uri": "kyro.feature"
+  }
+]
